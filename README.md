@@ -7,7 +7,7 @@ Building your own gem on a toplayer
 * under the lib/bossindro.rb   this basically consits of small code what you wanted to write and the written class should be made available in the gemspec file
 
 _$ touch bossindro.gemspec_
-      `
+      ``
       *Gem::Specification.new do |s|
           s.name = %q{bossindro}
           s.version = "0.0.1"
@@ -22,7 +22,7 @@ _$ touch bossindro.gemspec_
             'https://rubygems.org/gems/hola'
           s.license       = 'MIT'
         end
-       ` 
+       `` 
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)  `Red Color` 
 
  #### $ gem build bossindro.gemspec
