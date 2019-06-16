@@ -6,7 +6,7 @@ Building your own gem on a toplayer
 * Now we create lib folder and we write the necessary classes that are required for us
 * under the lib/bossindro.rb   this basically consits of small code what you wanted to write and the written class should be made available in the gemspec file
 
-##### MAKE_MY_GEM/bossindro.gemspec
+##### $ touch bossindro.gemspec
 * Gem::Specification.new do |s|
     s.name = %q{bossindro}
     s.version = "0.0.1"
@@ -21,4 +21,12 @@ Building your own gem on a toplayer
       'https://rubygems.org/gems/hola'
     s.license       = 'MIT'
   end
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `for the redcolor`  
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)   
+
+ #### $ gem build bossindro.gemspec
+ 
+    Now this command will create gemspec file which is of binary format 
+    Successfully built RubyGem
+    Name: bossindro
+    Version: 0.0.1
+    File: bossindro-0.0.1.gem
