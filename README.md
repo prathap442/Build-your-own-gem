@@ -1,12 +1,12 @@
 # Build-your-own-gem
 Building your own gem on a toplayer
 *  For this we first create folder MAKE_MY_GEM
-   mkdir MAKE_MY_GEM
-   cd MAKE_MY_GEM
+   `mkdir MAKE_MY_GEM`
+   `cd MAKE_MY_GEM`
 * Now we create lib folder and we write the necessary classes that are required for us
 * under the lib/bossindro.rb   this basically consits of small code what you wanted to write and the written class should be made available in the gemspec file
 
-_$ touch bossindro.gemspec_
+`$ touch bossindro.gemspec`
       
        Gem::Specification.new do |s|
           s.name = %q{bossindro}
