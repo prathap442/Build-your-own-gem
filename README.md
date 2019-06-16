@@ -6,7 +6,7 @@ Building your own gem on a toplayer
 * Now we create lib folder and we write the necessary classes that are required for us
 * under the lib/bossindro.rb   this basically consits of small code what you wanted to write and the written class should be made available in the gemspec file
 
-_ $ touch bossindro.gemspec _
+_$ touch bossindro.gemspec_
       
        Gem::Specification.new do |s|
           s.name = %q{bossindro}
@@ -33,4 +33,4 @@ _ $ touch bossindro.gemspec _
     Version: 0.0.1
     File: bossindro-0.0.1.gem
     
- #### gem install ./bossindro-0.0.0.gem   
+ #### gem install ./bossindro-0.0.1.gem   
