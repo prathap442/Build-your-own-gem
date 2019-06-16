@@ -40,3 +40,52 @@ Building your own gem on a toplayer
     Done installing documentation for bossindro after 0 seconds
     1 gem installed
 
+ * once these above commands are done successfully then we need to check in irb whether the things are working in the way i explain .
+ 
+    If you’re using an earlier Ruby than 1.9.2, you need to start the session with irb -rubygems or require the rubygems library after you launch irb.
+ >  
+      
+       % irb
+       >> require 'bossindro'
+       => true
+       >> Bossindro.broken
+       ["yes", "i", "do", "that", "because", "i'm", "boss"]
+ 
+ > 
+ 
+  
+   Now we need to have login with the rubygems.org because we need a account with them and they give the credentials like apikey that can be used for authenticating who is the host to rubygems
+   
+    curl -u username https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+    Now this asks for the password and enter the password
+    Enter host password for user 'username':
+    
+    Give password
+    
+  
+  `$ gem push bossindro-0.0.1.gem`
+     Pushing gem to RubyGems.org...
+     Successfully registered gem: bossindro (0.0.1)
+  
+     In just a short time (usually less than a minute), your gem will be available for installation by anyone. You can see it on the RubyGems.org site or grab it from any computer with RubyGems installed:
+     
+     gem list -r bossindro
+     
+     *** REMOTE GEMS ***
+
+     bossindro (0.0.1)
+
+     % gem install bossindro
+     Successfully installed bossindro-0.0.1
+     1 gem installed
+     
+     
+  
+  `gem install bossindro` 
+   does the successfull installation of the gem bossindro
+     
+  
+  
+  
+   
+ 
