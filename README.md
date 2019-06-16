@@ -25,7 +25,7 @@ _$ touch bossindro.gemspec_
         
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)  `Red Color` 
 
- #### $ gem build bossindro.gemspec
+ #### $ `gem build bossindro.gemspec`
  
     Now this command will create gemspec file which is of binary format 
     Successfully built RubyGem
@@ -33,4 +33,10 @@ _$ touch bossindro.gemspec_
     Version: 0.0.1
     File: bossindro-0.0.1.gem
     
- #### gem install ./bossindro-0.0.1.gem   
+ #### $ `gem install ./bossindro-0.0.1.gem`   
+ 
+    Successfully installed bossindro-0.0.1
+    Parsing documentation for bossindro-0.0.1
+    Done installing documentation for bossindro after 0 seconds
+    1 gem installed
+
